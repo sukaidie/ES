@@ -38,30 +38,48 @@
     * Miniaturisierung:
       - Die Größe schrumpft, die Leistung steigt
 5. **Welche grundsätzlichen Wirkungen haben informationstechnische Systeme in Unternehmen?**
+    * Wirkung der IT:
+      - Kostenreduzierung
+      - Entscheidungsqualität
+      - Umsatzpotenziale
+      - Strukturtransformationen
 
-### 2. Entfaltungsgegenstand
+### 2. Entfaltung des Gegenstandsbereichs
 
 1. **Was ist Enterprise Systems?**
-   * Enterprise Systems sind relevant für Unternehmen, weil sich die Geschäftsprozesse von Unternehmen ausdehnen oder kooperativ mit unternehmensexternen Partnern eine höhere Interaktion stattfindet
+    * Enterprise-Systeme (ES) sind große  Anwendungssoftware-Pakete, die Geschäftsprozesse, Informationsflüsse, Berichtserstattung und Datenanalyse in komplexen Organisationen unterstützen und organisieren.
+    * Enterprise Systems sind relevant für Unternehmen, weil sich die Geschäftsprozesse von Unternehmen ausdehnen oder kooperativ mit unternehmensexternen Partnern eine höhere Interaktion stattfindet.
 2. **Was ist Business Engineering?**
-   * Die ingenieurmäßige, d.h. methodisch fundierte Verknüpfung von Strategieentwicklung, Prozessmodellierung und Systementwicklung zur Transformation / Restrukturierung von Unternehmen
+    * die ingenieurmäßige, d.h. methodisch fundierte Verknüpfung von Strategieentwicklung, Prozessmodellierung und Systementwicklung zur Transformation / Restrukturierung von Unternehmen
+   * eine methoden- und modellbasierte Konstruktionslehre für Unternehmen des Informationszeitalters.
+   * ein Schwerpunkt der Ausbildung in Gestalt der ganzheitlichen Verbindung von Führungswissen, Prozessorientierung und Informationsmanagement für Veränderungsprojekte
 3. **Ist Business Engineering eine universell gültige Konstruktionslehre oder gibt es bezüglich der Einsatzbereiche Grenzen?**
-   * Business Engineering basiert immer auf einer technologisch induzierten Veränderung von Unternehmen
+   * Es gibt Grenzen. Es wird bestimmte Annahmen getroffen:
+      - Es gibt ein Problem bei der Entwicklung von innovativen Geschäftslösungen (Diskrepanz-Präsupposition).
+      - Business Engineering ist eine Maßnahme zur Überwindung dieses Defizits (Maßnahmen-Präsupposition).
+      - Es ist denkmöglich, dass neue innovative Geschäftslösungen wie Flugzeuge und Fertigungsanlagen geplant und umgesetzt werden können (Planungs- und Umsetzungs-Präsupposition).
+      - Für Unternehmen des „Nicht-Informationszeitalters“, sofern es solche gibt, ist Business Engineering die Methode für die „Blaupausenzeichnung“ (Anwendungsfall-Präsupposition).
+      - Es ist möglich und sinnvoll, dass eine Transformation eines Unternehmens vorgenommen wird (Anti-Disruptions-Präsupposition).
 4. **Ist mehr IT immer auch mehr Unternehmenserfolg?**
    * Nein, er kann ihn sogar verringern! Die IT wirkt nicht direkt auf den Unternehmenserfolg.
    * Der Beitrag der IT zum Unternehmenserfolg ist abhängig von Organisationsstrukturen und von den Geschäftsprozessen und
    * Diese sind wiederum an der Strategie und den Zielen des Unternehmens auszurichten.
 5. **Wie hängen Business Strategie, IT-Strategie, Unternehmensinfrastruktur und IT-Infrastruktur zusammen?**
-   * ![](https://dl.dropboxusercontent.com/u/55616012/note/es_01.svg)
+    ![](https://dl.dropboxusercontent.com/u/55616012/note/es_01.svg)
+    * Der Busniess Strategie und IT Strategie als auch Struktur(Unternehmensinfrastruktur und IT-Infrastruktur) müssen aufeinander abgestimmt werden, um angestrebten Unternehmenserfolg zu erreichen, egal wie sie sich gegeneinander beeinflussen.
+    * Strategien sind vor allem der Erfolgsgarant für Unternehmen. Strategie ist auch als grundsätzliche Voraussetzung für Unternehmenserfolg, und zwar Strategie bestimmt die Organisation, umgekehrt meist aber nicht.
+    * Ziel ist es, verschiedene Möglichkeiten zur Abstimmung von IT und Business aufzuzeigen.
 6. **Warum wird bei Transformationsprogrammen immer davon ausgegangen, dass es erhebliche IT-Implikationen gibt und zudem die IT immer mehr zum Treiber von Transformationsprogrammen wird?**
+    
 7. **Erklären Sie kurz das Modell des Strategic Alignments nach Henderson und Venkatraman.**
    * ![](https://dl.dropboxusercontent.com/u/55616012/note/es_02.svg)
    * Das Model beschreibt 4 dominante Perspektiven der Abstimmung:
-     * Strategic Execution View
+     * Strategy Execution View
      * Technology Transformation View
-     * CompetitivePotential View
+     * Competitive Potential View
      * Service Level View
 8. **Ist das Modell des Strategic Alignments von Henderson und Venkatraman das einzig denkmögliche Modell, um den Zusammenhang von Strategie und IT zu zeigen?**
+    * Nein.
 
 ### 3. Grundlagen der Modellierung
 
