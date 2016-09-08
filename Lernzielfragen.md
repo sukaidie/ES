@@ -84,33 +84,84 @@
 ### 3. Grundlagen der Modellierung
 
 1. **Was verstehen Sie unter einem Modell und welche Annahmen zur Realität können unterscheiden werden?**
+    * Definitionen:
+      - Traditionellerweise versteht man unter einem Modell die Abbildung der Realität oder eines Realitätsausschnitts. Je nach „Richtung“ der Abbildung kann ihr Charakter einem Vorbild oder einem Nachbild entsprechen.
+      - Allgemein umfaßt der Begriff Modell ein System (Ursystem), welches mit Hilfe einer Abbildungsvorschrift (Modellabbildung) in ein Modellsystem (Bildsystem) abgebildet wird.
+    * Ergebnis: Es gibt keinen eindeutigen Modellbegriff (Definition) in der Literatur!
+    * Es wird daher zwischen dem abbildungsorientierten- und dem konstruktionsorientierten Modellverständnis unterschieden.
+    * Annahmen:
+      - Realismus: Es gibt eine Welt unabhängig vom wahrnehmenden Subjekt.
+      - Idealismus: Es gibt keine subjekt unabhängige Realität.
 2. **Inwieweit unterscheidet sich der Modellbegriff der modernen Wirtschaftsinformatik von dem der frühen Wirtschaftsinformatik? Gehen Sie hierbei auch auf die Rolle des Modellierers ein.**
+    * Modellbegriff der frühen Wirtschaftsinformatik: abbildungsorientiertes Modellverständnis:
+      - Das Modell ist immaterielles Abbild des betrieblichen Objektsystems, insbesondere der Informationen und der kommunikationsbeziehungen.
+      - passiv-rezeptive Wirklichkeitsnachbildung
+      - Anforderungen an Modellierer: Wahrnehmung, Aufmerksamkeit, Beherrschung der Modellsprache
+    * Modellbegriff der modernen Wirtschaftsinformatik: Konstruktionsorientiertes Modellverständnis:
+      - Ein Modell ist das Ergebnis einer Konstruktion eines Modellierers, der für Modellnutzer eine Repräsentation eines Originals zu einer Zeit als relevant mit Hilfe einer Sprache deklariert.
+      - aktiver Modellbildungsprozess
+      - Anforderungen an Modellierer:
+        - Kreativität: subjektive Deutung / Sichtweise
+        - Eigenständigkeit: Entscheidet über relevante Aspekte und wählt geeignete Sprache
+        - Berücksichtigt Anforderungen des Modellnutzers
+      - Ziel: Zweckgerichtete Analyse, Planung und Gestaltung von Informations-, Kommunikations- und Organisationssystemen
 3. **Worin unterscheiden sich Referenz- und Metamodelle?**
+    * Referenz-Informationsmodelle:
+      - Modell, welches für einen Anwendungsbereich (eine sog. Domäne) den Anspruch erhebt, einen allgemeingültigen Charakter zu besitzen
+      - „Die zentrale Zielsetzung von Referenzmodellen besteht darin, als generische Ausgangslösungen für den Entwurf von unternehmensspezifischen Modellen herangezogen werden zu können, um den diesbezüglichen Erstellungsaufwand zu reduzieren“
+      - Bei Referenzmodellen handelt es sich also um eine Empfehlung (SOLLModell) für mögliche konkrete Modelle
+        - Ermöglicht Wiederverwendung von Know-how
+        - Baukastenprinzip
+      - Hohe Bedeutung für die schnellere Einführung von Standardsoftware
+    * Metamodelle:
+      - Metamodelle enthalten Metainformationen zu Modellen, d.h. Informationen über Elementtypen, Strukturregeln und Rahmenbedingungen von Modellen
+      - Metamodelle beschreiben die Elemente eines Modells und die zulässigen Beziehungen zwischen diesen Elementen
+      - Ein Metamodell kann selbst wieder durch ein Metamodell (einem „Meta-Metamodell“) beschrieben werden
+    * Metamodell kann die Sprache der Referenzmodells definieren.
 4. **Welche Bedeutung haben Modelle und wodurch kommt Modellen diese Bedeutung zu?**
    * Modelle haben eine überragende Bedeutung in der Wissenschaft und zunehmend auch in Unternehmen
    * Je nach den Zielen der Modellierung leisten sie einen Beitrag für
-     * den Erkenntnisfortschritt (Theorie: Suche nach Erkenntnissen)
-     * die Praxis, Handlungen (angewandte Wissenschaft; Praxis: Anwendung)
+     - den Erkenntnisfortschritt (Theorie: Suche nach Erkenntnissen)
+     - die Praxis, Handlungen (angewandte Wissenschaft; Praxis: Anwendung)
 5. **Welche Beziehungen zwischen Modellen kennen Sie?**
-   * Zerlegung und Integration
-   * Hierarchisierung
+   * Zerlegung und Integration: 
+      - Modelle bestehen aus Teilmodellen
+      - Zerlegung in Sichten zur Komplexitätsreduktion
+      - Integration der Teilmodelle durch gemeinsame Objekte
+      - Häufig vorkommende Sichten in der Wirtschaftsinformatik: 
+        - Organisationssicht, Datensicht, Funktionssicht, Steuerungssicht, Leistungssicht
+   * Hierarchisierung: 
+      - Modelle „liegen“ auf unterschiedlichen Abstraktionsebenen
+      - Verknüpfung der Ebenen durch Beziehung zwischen Elementen
+      - Häufig drei Ebenen, z. B.:
+        - Anwendungssysteme(Architekturmodell)
+        - Prozessmodelle(Ablaufmodell)
+        - Datenmodelle(Basismodell)
 
 ### 4. Strategieebene
 
 1. **Welche Aufgaben kommen dem strategischen Management auf Ebene des Gesamtunternehmens und dem auf einem einzelnen Geschäftsfeld zu?**
+    * Auf Ebene des Gesmtunternehmens: Integration der 3 Strategieebenen als ein Ganzes
+      - Strategie analysieren(intern & extern)
+      - Strategie formulieren & auswählen(entwickeln, beurteilen, entscheiden)
+      - Strategie implementieren(Personal schulen(oprative Ebene),Struktur der Strategien gestalten, oprationalisieren, kontrollieren)
+    * Auf einem einzelnen Geschäftsfeld: Portfolio-Analyse
+      - Risikobewertung der Anlageklassen von einzelnen, separierten Geschäftsfeldern wird für die ganzheitliche Bewertung der Unternehmensstrategie verwendet.
 2. **Welche strategische Managementebene hat für das Business Engineerings besondere Relevanz?**
-   * Geschäftsfeld
+   * Unternehmensgesamt-Strategie ist besonders relevant mit Business Engineering. BE wird im Unternehmen eingesetzt um die Unternehmensgesamtstrategie zu unterstützen, es orientiert sich an Unternehmensziel. Ein unternehmen könne mehrere Geschäftsfelder haben, deren Ziele sind aber bei einer übergreifenden Betrachtung auf gesamte Unternehmensebene weitergehend unabhängig. Darüber hinaus ist die Ziele und die strategische Ausrichtung des Unternehmens denen einzelnen Geschäftsfelder übergeordnet.
 3. **Erklären Sie das Wertkettenmodell und beurteilen Sie anschließend dessen Eignung für den Einsatz der IT im Unternehmen im Rahmen des Business Engineering.**
-   * „Jedes Unternehmen ist eine Ansammlung von Tätigkeiten, durch die sein Produkt entworfen, hergestellt, vertrieben, ausgeliefert und unterstütztwird. All diese Tätigkeiten lassen sich in einer Wertkette darstellen.“
-   * zur Verbesserung der Wertschöpfungsaktivitäten
-   * zur Verbesserung der unterstützenden Aktivitäten
-   * zur Integration von Lieferanten und Kunden oder anderen Partnern im Wertschöpfungsnetzwerk
+    * Wertkettenmodell: 
+      „Jedes Unternehmen ist eine Ansammlung von Tätigkeiten, durch die sein Produkt entworfen, hergestellt, vertrieben, ausgeliefert und unterstütztwird. All diese Tätigkeiten lassen sich in einer Wertkette darstellen.“
+    * Beurteilung:
+      - zur Verbesserung der Wertschöpfungsaktivitäten
+      - zur Verbesserung der unterstützenden Aktivitäten, z.B. mit IT könne die Aufwand für Unterstützungsaufgaben in Unternehmen durch Automatisierung reduziert werden.
+      - zur Integration von Lieferanten und Kunden oder anderen Partnern im Wertschöpfungsnetzwerk
 4. **Erklären Sie die Idee der Portfolio-Analyse und beschreiben Sie das Vorgehen zur Erstellung eines Portfolios.**
-   * Idee
+   * Idee:
      * Aufteilung des Risikoproblems auf die mehrere Dimensionen, in dem die einzelnen strategischen Geschäftseinheiten positioniert werden (keine additive Sicht der Zentrale)
      * Entwicklung und Visualisierung von Handlungsanweisungen bzw. Strategien
-   * Vorgehen
-     * Definition der zwei Dimensionen
+   * Vorgehen:
+     * Definition der zwei Dimensionen: Merkmal und Merkmaisausprägung
      * Einordnung der Untersuchungsobjekte in das Portfolio
      * Formulierung eines SOLL-Portfolios (Strategien)
      * Permanente Überprüfung der Portfolio-Objekte und Strategien
