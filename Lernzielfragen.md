@@ -141,7 +141,7 @@
 ### 4. Strategieebene
 
 1. **Welche Aufgaben kommen dem strategischen Management auf Ebene des Gesamtunternehmens und dem auf einem einzelnen Geschäftsfeld zu?**
-    * Auf Ebene des Gesmtunternehmens: Integration der 3 Strategieebenen als ein Ganzes
+    * Auf Ebene des Gesamtunternehmens: Integration der 3 Strategieebenen als ein Ganzes
       - Strategie analysieren(intern & extern)
       - Strategie formulieren & auswählen(entwickeln, beurteilen, entscheiden)
       - Strategie implementieren(Personal schulen(oprative Ebene),Struktur der Strategien gestalten, oprationalisieren, kontrollieren)
